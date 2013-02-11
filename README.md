@@ -17,6 +17,11 @@ The remaining 3,000 points are divided up based on participation. There are 300 
 
 The breakdown
 -------------
-So together, *savings make up 70%* of your final score, and *participation makes up 30%* of your final score. Of the 70% for savings, the points are split 50/50 between electricity savings and water savings, and of the 30% for events, the points are split 10/90 between Facebook challenges and real-world event attendence/Sweater Day.
+So together, **savings make up 70%** of your final score, and **participation makes up 30%** of your final score. Of the 70% for savings, the points are split 50/50 between electricity savings and water savings, and of the 30% for events, the points are split 10/90 between Facebook challenges and real-world event attendence/Sweater Day.
 
 May the best greek houses and dorms win! Scores will be posted weekly on the Green Cup Facebook page.
+
+Open source use
+---------------
+Software contained in this repository is licensed under the MIT License (see the LICENSE file), free to be used without restriction. Fork it and use it at your school!
+
