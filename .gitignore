@@ -1,6 +1,7 @@
 # Hide the data from the repo #
 ###############################
 numbers/*
+scores/*
 
 # Hide emacs save files #
 #########################
