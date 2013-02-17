@@ -1,5 +1,7 @@
 import csv
 import pprint
+import json
+
 pp = pprint.PrettyPrinter()
 
 data = {}
@@ -189,7 +191,26 @@ def printNondiningDormRankings(weeknum, score_type):
 
     print
 
+    
+def printAnomalies(weeknum, tolerance):
+    """
+    Prints out of the ordinary numbers.
+    Provide a weeknumber (1-4), and a percent tolerance.
+    Example: printAnomalies(1,15) shows all savings values > 15% in
+    either direction for week 1.
+    """
 
+    for type in data:
+        print
+        print "Anomalies for week %d for type %s:" % (weeknum,type)
+        print "===================================="
+        for entity in data[type]:
+            for attribute in ['water','energy']:
+                try:
+                    if abs(data[type][entity][attribute]['percent'][weeknum-1]) > tolerance:
+                        print entity, attribute, data[type][entity][attribute]['percent'][weeknum-1]
+                except IndexError:
+                    print "No week %d %s data for %s" % (weeknum, attribute, entity)
 
 
 load_savings_data(open('numbers/sorowk1.csv', 'rU'),'sororities','energy')
@@ -209,8 +230,8 @@ load_participation_data(open('numbers/participation.csv', 'rU'))
 calculate_totals()
 calculate_scores()
 
-pp.pprint(data)
-pp.pprint(totals)
+# pp.pprint(data)
+# pp.pprint(totals)
 
 
 # # Making sure things add up.
@@ -237,3 +258,7 @@ printDiningDormRankings(0,'overall')
 print "\n===================================="
 printNondiningDormRankings(0,'overall')
 
+#print json.dumps(data)
+
+# printAnomalies(1,20)
+# printAnomalies(2,20)
