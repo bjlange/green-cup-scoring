@@ -13,7 +13,7 @@ Water and electricity are weighted equally, and reduction scores start new every
 
 Participation points
 --------------------
-The remaining 3,000 points are divided up based on participation. There are 300 points up for grabs for participating in Green Cup Facebook challenges (with the exception of Sweater Day, which is worth 450 points by itself), and 450 points up for grabs at each Green Cup event. These points are divided up in a similar way to the savings points, except that instead of percent reduction, it's percent participation that counts. So if you live in a dorm with 300 people and 30 of you attend an event, that's 10% participation- which could equate to all 450 points if nobody from other dorms in your division attends, or it could equate to 150 (one third of the points) if another dorm brings 20% of their members.
+The remaining 3,000 points are divided up based on participation. There are 300 points up for grabs for participating in Green Cup Facebook challenges (with the exception of Sweater Day, which is worth 337.5 points by itself), and 337.5 points up for grabs at each Green Cup event. These points are divided up in a similar way to the savings points, except that instead of percent reduction, it's percent participation that counts. So if you live in a dorm with 300 people and 30 of you attend an event, that's 10% participation- which could equate to all 337.5 points if nobody from other dorms in your division attends, or it could equate to 112.5 (one third of the points) if another dorm brings 20% of their members.
 
 The breakdown
 -------------
